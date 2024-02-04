@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: color #294612;;
+        }
+
+        header {
+            background-color:#072E33 ;
+            color: #6DA5C0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: RIGHT;
+            padding: 50px;
+        }
+
+        h2 {
+            margin: 20px;
+        }
+
+        .app-feature {
+            display: flex;
+            margin: 20px;
+        }
+
+        .app-feature img {
+            max-width: 100px;
+            margin: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #072E33;
+            color: #6DA5C0;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0C7073;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Food Delivery</h1>
+        <p>Order your favorite meals anytime, anywhere.</p>
+    </header>
+
+    <section>
+        <h2>Features</h2>
+
+        <div class="app-feature">
+            <img src="C:\Users\shiva\Pictures\Screenshots\Screenshot 2024-02-01 212017.png" alt="Restaurant Icon">
+            <div>
+                <h3>Wide Selection</h3>
+                <p>Explore a diverse range of restaurants and cuisines.</p>
+            </div>
+        </div>
+
+        <div class="app-feature">
+            <img src="C:\Users\shiva\Pictures\Screenshots\del.png" alt="Delivery Icon">
+            <div>
+                <h3>Quick Delivery</h3>
+                <p>Enjoy fast and reliable delivery to your doorstep.</p>
+            </div>
+        </div>
+
+        <div class="app-feature">
+            <img src="C:\Users\shiva\Pictures\Screenshots\payment.png" alt="Payment Icon">
+            <div>
+                <h3>Secure Payments</h3>
+                <p>Make secure payments using various payment methods.</p>
+            </div>
+        </div>
+
+        <a href="#" class="cta-button">Get Started</a>
+    </section>
+
+
+</body>
+</html>
